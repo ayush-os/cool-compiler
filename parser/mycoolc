@@ -1,0 +1,3 @@
+#!/bin/csh -f
+/afs/ir/class/cs143/bin/coolc -l lexer $*
+

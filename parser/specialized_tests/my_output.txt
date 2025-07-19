@@ -1,0 +1,51 @@
+#2
+_program
+  #8
+  _class
+    ShiftReduceTest
+    Object
+    "specialized_tests/let_shift_reduce.cl"
+    (
+    #7
+    _method
+      test
+      Int
+      #5
+      _let
+        x
+        Int
+        #4
+        _int
+          5
+        : _no_type
+        #6
+        _let
+          y
+          Int
+          #5
+          _let
+            z
+            Int
+            #5
+            _int
+              10
+            : _no_type
+            #5
+            _object
+              z
+            : _no_type
+          : _no_type
+          #6
+          _plus
+            #6
+            _object
+              x
+            : _no_type
+            #6
+            _object
+              y
+            : _no_type
+          : _no_type
+        : _no_type
+      : _no_type
+    )
